@@ -1,16 +1,24 @@
 import React from "react";
 import start from ".././img/start.png";
-import ghost from ".././img/ghost.png";
+import ghostImg from ".././img/ghost.png";
 import ghostface from ".././img/ghostface.png";
 
-const MainContent = props => {
-  let startClass = props.startButton ? "yesDisplay" : "noDisplay";
-  let ghostClass = props.ghost ? "visible" : "invisible";
+const MainContent = ({
+  startButton,
+  startGame,
+  heightLoc,
+  widthLoc,
+  clickGhost,
+  ghost,
+  ghostFinal
+}) => {
+  let startClass = startButton ? "yesDisplay" : "noDisplay";
+  let ghostClass = ghost ? "visible" : "invisible";
   let ghostLocation = {
-    top: props.heightLoc,
-    left: props.widthLoc
+    top: heightLoc,
+    left: widthLoc
   };
-  let ghostFinalClass = props.ghostFinal ? "visible" : "invisible";
+  let ghostFinalClass = ghostFinal ? "visible" : "invisible";
 
   return (
     <main>
@@ -23,18 +31,18 @@ const MainContent = props => {
           className={startClass}
           id="startButton"
           width="80"
-          onClick={props.startGame}
+          onClick={startGame}
         />
       </div>
       <div>
         <img
-          src={ghost}
+          src={ghostImg}
           alt="Ghost"
           className={ghostClass}
           id="ghost"
           width="50"
           style={ghostLocation}
-          onClick={props.clickGhost}
+          onClick={clickGhost}
         />
       </div>
       <div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nav = props => {
+const Nav = reset => {
   return (
     <nav>
       <a
@@ -10,7 +10,7 @@ const Nav = props => {
       >
         Home
       </a>
-      <span onClick={props.reset}>Reset</span>
+      <span onClick={reset}>Reset</span>
     </nav>
   );
 };

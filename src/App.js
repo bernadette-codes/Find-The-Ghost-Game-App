@@ -67,18 +67,20 @@ class App extends Component {
   };
 
   render() {
+    const { startButton, ghost, heightLoc, widthLoc, ghostFinal } = this.state;
+
     return (
       <div>
         <Nav reset={this.reset} />
 
         <MainContent
-          startButton={this.state.startButton}
+          startButton={startButton}
           startGame={this.startGame}
-          ghost={this.state.ghost}
+          ghost={ghost}
           clickGhost={this.clickGhost}
-          heightLoc={this.state.heightLoc}
-          widthLoc={this.state.widthLoc}
-          ghostFinal={this.state.ghostFinal}
+          heightLoc={heightLoc}
+          widthLoc={widthLoc}
+          ghostFinal={ghostFinal}
         />
 
         <footer>
