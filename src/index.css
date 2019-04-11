@@ -1,14 +1,145 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  position: relative;
+  min-height: 95%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  display: block;
+  background: url(img/background.jpg) center center / cover no-repeat fixed;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Link & Reset */
+nav {
+  min-height: 32px;
+  margin-top: 15px;
+}
+
+nav a,
+nav span {
+  height: 32px;
+  font-size: 1.25em;
+  color: #fff;
+  background-color: #404040;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid #404040;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #404040;
+  background-color: #fff;
+}
+
+main {
+  padding-bottom: 0;
+  margin: 0 0 10px;
+  cursor: crosshair;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.875em;
+  font-weight: 500;
+  margin-left: 20px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+p {
+  font-size: 1.2em;
+  color: #fff;
+  margin-left: 20px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#startButton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid #c5c5c5;
+  box-shadow: 0 0 8px 2px #c5c5c5;
+  cursor: pointer;
+}
+
+#ghost {
+  position: absolute;
+  opacity: 0.7;
+}
+
+#ghostFinal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yesDisplay {
+  display: block;
+}
+
+.noDisplay {
+  display: none;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 10px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  #ghost {
+    width: 35px;
+  }
+  #ghostFinal {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  nav a,
+  nav span {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  #ghost {
+    width: 28px;
+  }
 }
