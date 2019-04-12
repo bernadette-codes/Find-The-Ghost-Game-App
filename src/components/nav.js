@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nav = reset => {
+const Nav = ({ reset }) => {
   return (
     <nav>
       <a

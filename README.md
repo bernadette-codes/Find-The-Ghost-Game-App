@@ -1,3 +1,19 @@
+## **Find the Ghost Game**
+
+The objective of Find the Ghost Game is to click the ghost when it appears.
+
+![Find the Ghost Game](http://www.bernadetteengleman.com/img/portfolio/ghostthumbnail2.jpg)
+
+- It is a single-page, responsive application programmed with React
+
+**Front-End:**
+
+- React
+- CSS
+- HTML
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
