@@ -1,17 +1,6 @@
 import { Component } from "react";
 
 class Mechanics extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      heightLoc: 0,
-      widthLoc: 0,
-      startButton: true,
-      ghost: false,
-      ghostFinal: false
-    };
-  }
-
   startGame = () => {
     this.setState({
       startButton: false

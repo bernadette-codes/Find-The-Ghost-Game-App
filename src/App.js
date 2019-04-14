@@ -4,6 +4,17 @@ import Nav from "./components/nav";
 import MainContent from "./components/mainContent";
 
 class App extends Mechanics {
+  constructor(props) {
+    super(props);
+    this.state = {
+      heightLoc: 0,
+      widthLoc: 0,
+      startButton: true,
+      ghost: false,
+      ghostFinal: false
+    };
+  }
+
   render() {
     const { startButton, ghost, heightLoc, widthLoc, ghostFinal } = this.state;
 
