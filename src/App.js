@@ -23,6 +23,7 @@ class App extends Component {
     // Show Final Ghost
     setTimeout(
       function() {
+        this.cancelGhost();
         this.setState({
           ghost: false,
           ghostFinal: true
@@ -49,6 +50,12 @@ class App extends Component {
       }.bind(this),
       800
     );
+  };
+
+  cancelGhost = () => {
+    this.setState({
+      ghost: false
+    });
   };
 
   newLoc = () => {
