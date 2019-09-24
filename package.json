@@ -2,6 +2,7 @@
   "name": "ghost-game-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://http://bernadetteengleman.com/Apps/Ghost-Game",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
