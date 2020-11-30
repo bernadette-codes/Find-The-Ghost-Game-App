@@ -24,13 +24,14 @@ const MainContent = ({
     <main>
       <h1>Find the Ghost Game</h1>
       <p>Click the ghost when it appears.</p>
+
       <div>
         <img
           src={start}
           alt="START"
           className={startClass}
           id="startButton"
-          width="80"
+          width="120"
           onClick={startGame}
         />
       </div>
@@ -40,7 +41,7 @@ const MainContent = ({
           alt="Ghost"
           className={ghostClass}
           id="ghost"
-          width="50"
+          width="100"
           style={ghostLocation}
           onClick={clickGhost}
         />

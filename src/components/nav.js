@@ -4,7 +4,7 @@ const Nav = ({ reset }) => {
   return (
     <nav>
       <a
-        href="http://bernadetteengleman.com/index.html"
+        href="https://bernadetteestacio.site/"
         target="_blank"
         rel="noopener noreferrer"
       >

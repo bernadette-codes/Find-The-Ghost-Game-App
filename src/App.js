@@ -22,7 +22,7 @@ class App extends Component {
 
     // Show Final Ghost
     setTimeout(
-      function() {
+      function () {
         this.cancelGhost();
         this.setState({
           ghost: false,
@@ -42,7 +42,7 @@ class App extends Component {
 
   showGost = () => {
     setTimeout(
-      function() {
+      function () {
         this.newLoc();
         this.setState({
           ghost: true
@@ -91,12 +91,7 @@ class App extends Component {
         />
 
         <footer>
-          <p>
-            <small>
-              Copyright © 2015-{new Date().getFullYear()} Bernadette Estacio.
-              All rights reserved
-            </small>
-          </p>
+          <p>© 2015-{new Date().getFullYear()} Bernadette Estacio</p>
         </footer>
       </div>
     );
