@@ -1,7 +1,5 @@
 import React from "react";
 import start from ".././img/start.png";
-import ghostImg from ".././img/ghost.png";
-import ghostface from ".././img/ghostface.png";
 
 const MainContent = ({
   startButton,
@@ -37,7 +35,7 @@ const MainContent = ({
       </div>
       <div>
         <img
-          src={ghostImg}
+          src="https://bernadetteestacio.site/ghost.png"
           alt="Ghost"
           className={ghostClass}
           id="ghost"
@@ -48,7 +46,7 @@ const MainContent = ({
       </div>
       <div>
         <img
-          src={ghostface}
+          src="https://bernadetteestacio.site/ghostface.png"
           alt="Ghost"
           className={ghostFinalClass}
           id="ghostFinal"
