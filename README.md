@@ -1,16 +1,17 @@
-## **Find the Ghost Game**
+**Find the Ghost Game**
+--------------------
 
-The objective of Find the Ghost Game is to click the ghost when it appears.
+The objective of [Find the Ghost Game](https://bernadetteestacio.site/projects/ghost-game/) is to click the ghost when it appears.
 
-![Find the Ghost Game](http://www.bernadetteengleman.com/img/portfolio/ghostthumbnail2.jpg)
+![Find the Ghost Game](https://bernadetteestacio.site/find-ghost-game.27ddb483.png)
 
-- It is a single-page, responsive application programmed with React
+- It is a single-page, responsive application programmed with React.
 
 **Front-End:**
 
 - React
-- CSS
-- HTML
+- HTML5
+- CSS3
 
 ---
 
