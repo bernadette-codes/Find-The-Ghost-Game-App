@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles.scss";
 
-const Nav = ({ reset }) => {
-  return (
-    <nav>
+const Nav = () => (
+  <nav>
+    <button>
       <a
         href="https://bernadetteestacio.site/"
         target="_blank"
@@ -10,9 +11,11 @@ const Nav = ({ reset }) => {
       >
         Home
       </a>
-      <span onClick={reset}>Reset</span>
-    </nav>
-  );
-};
+    </button>
+    <button>
+      <span onClick={() => window.location.reload()}>Reset</span>
+    </button>
+  </nav>
+);
 
 export default Nav;

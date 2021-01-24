@@ -2,8 +2,9 @@
   "name": "ghost-game-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bernadetteestacio.site/projects/ghost-game",
+  "homepage": "https://bernadetteestacio.site/projects/Ghost-Game",
   "dependencies": {
+    "node-sass": "^4.14.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"

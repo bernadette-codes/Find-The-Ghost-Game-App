@@ -1,0 +1,32 @@
+nav {
+  min-height: 32px;
+  margin-top: 15px;
+
+  button {
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  a,
+  span {
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #404040;
+    margin: 5px 3px;
+    margin-right: 0;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #404040;
+    text-decoration: none;
+
+    @media (max-width: 380px) {
+      font-size: 1em;
+    }
+
+    &:hover {
+      color: #404040;
+      background-color: #fff;
+    }
+  }
+}

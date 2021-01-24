@@ -1,0 +1,42 @@
+h1 {
+  color: #fff;
+  font-size: 1.875em;
+  font-weight: 500;
+  margin-top: -30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+
+  @media (max-width: 991px) {
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 1.8em;
+  }
+}
+
+p {
+  font-size: 1.2em;
+  color: #fff;
+  margin-top: -50px;
+  margin-right: 15px;
+  text-align: right;
+  text-shadow: 2px 2px 4px #000;
+
+  @media (max-width: 991px) {
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 1em;
+  }
+}
