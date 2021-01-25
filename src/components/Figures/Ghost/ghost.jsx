@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ghost from "../../../img/ghost.png";
 import "./styles.scss";
 
 const Ghost = ({ onPlay, endPlay, setEndPlay }) => {
@@ -49,7 +50,7 @@ const Ghost = ({ onPlay, endPlay, setEndPlay }) => {
   return (
     <div className="ghost">
       <img
-        src="https://bernadetteestacio.site/assets/img/portfolio/ghost.png"
+        src={ghost}
         alt="Ghost"
         className={ghostShow ? " visible" : " invisible"}
         width="70"
