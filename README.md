@@ -1,6 +1,6 @@
 ## **Find the Ghost Game**
 
-The objective of [Find the Ghost Game](https://find-the-ghost-game-app.vercel.app/) is to click the ghost when it appears.
+The objective of [Find the Ghost Game](https://bernadettecodes.netlify.app/projects/ghost-game/) is to click the ghost when it appears.
 
 ![Find the Ghost Game](https://raw.githubusercontent.com/bernadette-codes/Bernadettecodes/master/src/assets/img/portfolio/find-ghost-game.png)
 
